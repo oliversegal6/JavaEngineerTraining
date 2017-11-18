@@ -1,5 +1,9 @@
 apache-maven-3.3.9-bin
 192.168.1.100
+
+download: http://dl.mongodb.org/dl/win32/x86_64
+
+mongod --logpath F:\MongoDB\data\log\mongodb.log --dbpath F:\MongoDB\data\db\
 ------------------------------
   Instructions
 ------------------------------
