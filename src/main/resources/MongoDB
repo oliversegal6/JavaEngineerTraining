@@ -1,4 +1,5 @@
 apache-maven-3.3.9-bin
+192.168.1.100
 ------------------------------
   Instructions
 ------------------------------
@@ -19,6 +20,7 @@ apache-maven-3.3.9-bin
 1. mongod to start server
 2. mongo to start client
 3.
+
     -- Find
    db.Employee.find().pretty()
    db.Employee.find({"by":"test2", "name":"test2"}).pretty()

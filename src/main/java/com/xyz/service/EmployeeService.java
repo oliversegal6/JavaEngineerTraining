@@ -1,7 +1,7 @@
 package com.xyz.service;
 
-import com.xyz.EmployeeRepository;
-import com.xyz.pojo.Employee;
+import com.xyz.model.EmployeeRepository;
+import com.xyz.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +14,8 @@ public class EmployeeService {
     @Autowired
     private EmployeeRepository employeeRepository;
 
-    public void addEmployee(Employee employee){
-
+    public void addEmployee(Employee employee)
+    {
+        employeeRepository.save(employee);
     }
 }

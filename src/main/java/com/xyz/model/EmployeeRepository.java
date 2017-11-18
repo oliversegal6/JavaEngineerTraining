@@ -1,6 +1,6 @@
-package com.xyz;
+package com.xyz.model;
 
-import com.xyz.pojo.Employee;
+import com.xyz.model.Employee;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.repository.NoRepositoryBean;
 import org.springframework.stereotype.Repository;
