@@ -1,5 +1,0 @@
-A Architecture
-B Business
-C Coding(core)
-D Design
-E English

@@ -8,7 +8,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 /**
  * Created by admin on 2017/11/18.
  */
-public class TestService
+public class EmployeeServiceTest
 {
     public static void main(String[] args)
     {
