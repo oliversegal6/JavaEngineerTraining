@@ -4,6 +4,9 @@ apache-maven-3.3.9-bin
 download: http://dl.mongodb.org/dl/win32/x86_64
 
 mongod --logpath F:\MongoDB\data\log\mongodb.log --dbpath F:\MongoDB\data\db\
+r
+Mint: /usr/bin/mongod --config /etc/mongodb.conf --rest
+
 ------------------------------
   Instructions
 ------------------------------
