@@ -12,6 +12,8 @@
         <module>persistance</module>
         <module>employee</module>
         <module>configservice</module>
+        <module>RatePlan</module>
+        <module>userservice</module>
     </modules>
     <dependencies>
         <dependency>
