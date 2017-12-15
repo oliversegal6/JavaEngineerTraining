@@ -1,5 +1,7 @@
 package platform.user.api;
 
+import platform.user.model.LoginRequest;
+import platform.user.model.LoginResponse;
 import platform.user.model.User;
 
 import javax.ws.rs.*;
@@ -20,5 +22,11 @@ public interface UserServiceInterface
     @Consumes({MediaType.APPLICATION_JSON})
     @Produces({MediaType.APPLICATION_JSON})
     public Collection<User> getUsers();
+
+    @POST
+    @Path("/users/login")
+    @Consumes({MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON})
+    public LoginResponse login(LoginRequest loginRequest);
 
 }

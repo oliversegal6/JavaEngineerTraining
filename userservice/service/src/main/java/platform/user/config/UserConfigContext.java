@@ -9,6 +9,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 import platform.config.RestConfigContext;
 import platform.persistence.mongo.MongoConfigContext;
 import platform.user.api.UserServiceInterface;
+import platform.user.auth.config.EnableAuthentication;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +19,7 @@ import java.util.List;
 @ComponentScan({"platform.user"})
 @Import({MongoConfigContext.class, RestConfigContext.class})
 @PropertySource({"classpath:user-service.properties"})
+@EnableAuthentication
 public class UserConfigContext
 {
     @Autowired
