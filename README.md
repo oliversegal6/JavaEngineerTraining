@@ -15,6 +15,6 @@ Content-Type：application/json
 - persistance (platform) to persist data to DB
 - userserver (platform) to auth login
 - employee is sample service
-
+- service-request is Active MQ
 Interface 单独打包可以提前发布接口版本，从而隔离前后端开发，使得前后端开发可以同步进行。
 Framework和具体应用之间加一层，这样可以隔离Framework 版本变化。

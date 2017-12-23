@@ -14,6 +14,7 @@
         <module>configservice</module>
         <module>RatePlan</module>
         <module>userservice</module>
+        <module>servicerequest</module>
     </modules>
     <dependencies>
         <dependency>
