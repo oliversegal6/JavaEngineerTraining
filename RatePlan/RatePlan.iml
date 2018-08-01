@@ -52,4 +52,10 @@
     <orderEntry type="library" name="Maven: org.drools:drools-templates:6.5.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.kie:kie-internal:6.5.0.Final" level="project" />
   </component>
+  <component name="PackageRequirementsSettings">
+    <option name="requirementsPath" value="" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
 </module>
